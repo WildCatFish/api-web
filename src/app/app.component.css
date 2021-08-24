@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* 当屏幕宽度最小为1200px，即大于等于1200px时*/
+@media screen and (min-width:1200px) {
+    .row {
+        width: 30%;
+    }
+    html,
+    body {
+        width: 100%;
+    }
+
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: inline-block;
+        height: 200px;
+        border: 1px solid #000;
+    }
+
+    .body {
+        background-color: rgb(218, 248, 82);
+    }
+
+    .foot {
+        background-color: rgb(60, 123, 206);
+    }
+}
+
+
+
+
+
+/* 屏幕宽度小于等于1200px时  */
+@media (max-width:1200px) {
+    .row {
+        width: 90%;
+    }
+    html,
+    body {
+        width: 100%;
+    }
+
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: inline-block;
+        height: 200px;
+        border: 1px solid #000;
+    }
+
+
+    .body {
+        background-color: rgb(218, 248, 82);
+    }
+
+    .foot {
+        background-color: rgb(60, 123, 206);
+    }
+}
